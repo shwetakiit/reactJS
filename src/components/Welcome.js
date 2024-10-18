@@ -2,6 +2,7 @@
 class Welcome extends React.Component{
 
     render(){
+       //Using Jasx
         return <h1>Class component </h1>
     }
 
