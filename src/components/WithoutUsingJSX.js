@@ -8,8 +8,8 @@ const WithoutUsingJSX = () => {
 
         //' <h1>Shweta</h1>'  //It render like  <h1>Shweta</h1>  which is not correct so create other below element ,
 
-        React.createElement('h1', null, 'Without using JSX'),
-        React.createElement('h2', null, 'Without using JSX')
+        React.createElement('h1', null, 'Without using JSX  1'),
+        React.createElement('h2', null, 'Without using JSX 2')
     )
 }
 

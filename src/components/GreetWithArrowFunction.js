@@ -1,6 +1,11 @@
 import React from "react"
 
-const GreetWithArrowFunction=  () =>   <h1>Arrow function use in React js</h1>
+const GreetWithArrowFunction= props =>  
+    
+    {
+       return <h1>Hello {props.name}</h1>
+       
+    }
 
 
 export default GreetWithArrowFunction;
