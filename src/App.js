@@ -21,6 +21,10 @@ import ClickEventHandler from './components/ClickEventHandler.js';
 import ClassComponenet from './components/ClassComponent.js';
 import functWithJX from   './components/FunctionWithJSX.js';
 import GreetingUsingPropsInclass from './components/GreetingUsingPropsInClass.js'
+import StateDemo from './components/StateDemo.js';
+import FunctionClick from './components/FunctionClickEvent.js';
+import ClassClick from './components/ClassClick.js';
+
 
 class App extends Component {
   render() {
@@ -29,11 +33,15 @@ class App extends Component {
         {/*<Mygreet /> */}
         {/* <Welcome/> */}
         { /*<WithoutUsingJSX/> */}
+        <ClassClick/>
+        <FunctionClick/>
+        <StateDemo/>
         <WithoutUsingJSX/>
         <functWithJX/>
        <ClassComponenet/>
         <Greet/>
         <GreetingUsingPropsInclass name="Shweta" />
+      
 
         {<GreetWithArrowFunction />}
      <GreetingUseProp name="Maggi"  heroName="Batman">
